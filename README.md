@@ -6,6 +6,8 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 
 - [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้)
 - [Installation](#Installation)
+- [LinuxCommand](#Linux Command)
+- [Installation](#Installation)
 
 ## สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้
 
