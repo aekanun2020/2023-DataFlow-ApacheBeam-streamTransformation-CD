@@ -25,7 +25,7 @@ This project revolves around developing a data pipeline leveraging Apache Beam t
 2. **Google Cloud SDK** - [Follow the instructions here](https://cloud.google.com/sdk/docs/install).
 
 
-## Installation
+## Video
 
 1. **Video 1** - [Link for Video](https://video.aekanun.com/D6lfK5J1).
    
