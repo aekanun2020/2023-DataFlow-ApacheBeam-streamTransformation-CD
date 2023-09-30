@@ -5,7 +5,7 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 ## Table of Contents
 
 - [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้)
-- [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#กรณีที่ต้องติดตั้ง Docker และ Docker-compose)
+- [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้)
 - [Installation](#installation)
 - [Testing](#testing)
 - [Usage](#usage)
