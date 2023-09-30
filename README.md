@@ -1,6 +1,6 @@
-# Apache Beam Data Streaming Project
+# Terra-Docker-BeamFlow Project
 
-This project is designed to create a data pipeline using Apache Beam, facilitating data transfer from PubSub to BigQuery on the Google Cloud Platform (GCP).
+This project revolves around developing a data pipeline leveraging Apache Beam to streamline the data flow from PubSub to BigQuery within the Google Cloud Platform (GCP). Within this endeavor, our Beam code incorporates data cleansing routines and employs a Continuous Delivery (CD) strategy, orchestrated using Terraform and containerized through Docker.
 
 ## Table of Contents
 
