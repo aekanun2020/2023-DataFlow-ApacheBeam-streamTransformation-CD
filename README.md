@@ -22,7 +22,7 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 
 ## Installation
 
-ท่านสามารถทำตามขั้นตอนในหน้า 12, 14-15: [Follow the instructions here](https://docs.google.com/presentation/d/1USvOvbXAohymqWaNbYMfD3e23Z35aJO-hQUaY7y_JBA/edit#slide=id.g198e6c17f8f_0_201).
+1. **Docker and Docker-compose** - ท่านสามารถทำตามขั้นตอนในหน้า 12, 14-15: [Follow the instructions here](https://docs.google.com/presentation/d/1USvOvbXAohymqWaNbYMfD3e23Z35aJO-hQUaY7y_JBA/edit#slide=id.g198e6c17f8f_0_201).
    
 2. **Enable the necessary APIs** - Enable the Dataflow, BigQuery, and Pub/Sub APIs in your GCP project.
 
