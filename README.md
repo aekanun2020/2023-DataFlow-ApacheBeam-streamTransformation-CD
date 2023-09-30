@@ -26,9 +26,7 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
    
 2. **Enable the necessary APIs** - Enable the Dataflow, BigQuery, and Pub/Sub APIs in your GCP project.
 
-3. **Create a Service Account** - Create a GCP service account with the necessary permissions and download the JSON key file.
-
-4. **Set up the Environment Variable** - Set up the GOOGLE_APPLICATION_CREDENTIALS environment variable to point to the service account key file:
+service account key file:
 
    ```sh
    export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-service-account-file.json"
