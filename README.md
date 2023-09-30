@@ -28,5 +28,5 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 คำสั่งที่ใช้ แก้ไข file เมื่อแก้ไขเรียบร้อยแล้ว กด ctrl+x กรณีต้องการบันทึกให้กด y กรณีไม่ต้องการบันทึกให้กด n แล้วตามด้วย enter:
 
    ```sh
-   nano "file"
+   nano file
   
