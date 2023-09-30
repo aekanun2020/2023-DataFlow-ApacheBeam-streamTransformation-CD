@@ -6,7 +6,7 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 
 - [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้)
 - [Installation](#Installation)
-- [Linux](#Linux)
+- [Video](#Video)
 
 
 ## สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้
@@ -17,25 +17,16 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 - Google Cloud SDK กรณีการ run งานตามโปรเจคนี้เกิดขึ้นนอก environment ของ Google Cloud
 - Resource system ที่ต้องการ: CPU อย่างน้อย 2 vCPU และ RAM อย่างน้อย 4 GB
 
+
 ## Installation
 
 1. **Docker and Docker-compose** - ท่านสามารถทำตามขั้นตอนในหน้า 12, 14-15: [Follow the instructions here](https://docs.google.com/presentation/d/1USvOvbXAohymqWaNbYMfD3e23Z35aJO-hQUaY7y_JBA/edit#slide=id.g198e6c17f8f_0_201).
    
 2. **Google Cloud SDK** - [Follow the instructions here](https://cloud.google.com/sdk/docs/install).
 
-## Linux
 
-คำสั่งที่ใช้ แสดงรายชื่อ file และ sub-directory ใน directory ปัจจุบัน:
+## Installation
 
-   ```sh
-   ls -l ./
-
-คำสั่งที่ใช้ย้ายไฟล์ focused-evening-397008-aa8085446fa3.json ที่อยู่ใน directory ก่อนหน้า directory ปัจจุบันไป 2 ระดับ มาวางที่ directory ปัจจุบัน :
-
-   ```sh
-   mv ../../focused-evening-397008-aa8085446fa3.json ./
-
-คำสั่งที่ใช้ แก้ไข file เมื่อแก้ไขเรียบร้อยแล้ว กด ctrl+x กรณีต้องการบันทึกให้กด y กรณีไม่ต้องการบันทึกให้กด n แล้วตามด้วย enter:
-
-   ```sh
-   nano filename
+1. **Video 1** - [Link for Video](https://video.aekanun.com/D6lfK5J1).
+   
+2. **Video 2** - [Link for Video](https://video.aekanun.com/JCTmB6tG).
