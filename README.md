@@ -25,8 +25,17 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 
 ## Linux
 
+คำสั่งที่ใช้ แสดงรายชื่อ file และ sub-directory ใน directory ปัจจุบัน:
+
+   ```sh
+   ls -l ./
+
+คำสั่งที่ใช้ย้ายไฟล์ focused-evening-397008-aa8085446fa3.json ที่อยู่ใน directory ก่อนหน้า directory ปัจจุบันไป 2 ระดับ มาวางที่ directory ปัจจุบัน :
+
+   ```sh
+   mv ../../focused-evening-397008-aa8085446fa3.json ./
+
 คำสั่งที่ใช้ แก้ไข file เมื่อแก้ไขเรียบร้อยแล้ว กด ctrl+x กรณีต้องการบันทึกให้กด y กรณีไม่ต้องการบันทึกให้กด n แล้วตามด้วย enter:
 
    ```sh
-   nano file
-  
+   nano filename
