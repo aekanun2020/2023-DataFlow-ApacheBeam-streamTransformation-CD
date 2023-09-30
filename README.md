@@ -26,22 +26,3 @@ service account key file:
    ```sh
    export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-service-account-file.json"
    ```
-
-## กรณีต้องติดตั้ง Docker และ Docker-compose
-
-Before you start with the installation, make sure to set up your GCP environment:
-
-1. **Create a GCP Project** - [Follow the instructions here](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
-   
-2. **Enable the necessary APIs** - Enable the Dataflow, BigQuery, and Pub/Sub APIs in your GCP project.
-
-3. **Create a Service Account** - Create a GCP service account with the necessary permissions and download the JSON key file.
-
-4. **Set up the Environment Variable** - Set up the GOOGLE_APPLICATION_CREDENTIALS environment variable to point to the service account key file:
-
-   ```sh
-   export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-service-account-file.json"
-   ```
-
-
-## Installation
