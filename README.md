@@ -4,7 +4,7 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
+- [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้)
 - [Setting Up Your Google Cloud Platform (GCP) Environment](#setting-up-your-google-cloud-platform-gcp-environment)
 - [Installation](#installation)
 - [Testing](#testing)
@@ -12,13 +12,12 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 - [Contributing](#contributing)
 - [License](#license)
 
-## Prerequisites
+## สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้
 
-Ensure you have the following installed on your system:
+การทำงานตามโปรเจคนี้สามารถใช้เครื่องคอมพิวเตอร์ pc และ mac (intel/m1/m2) หรือ vm ทั้ง on-premises และ on-cloud ที่ต้องมีซอฟต์แวร์ต่างๆ ประกอบด้วย:
 
-- Python 3.9
-- Apache Beam 2.50.0
-- Google Cloud SDK
+- Docker version 24.0.5 และ Docker Compose version v2.12.2 หรือ Docker Desktop for Mac/Windows
+- Google Cloud SDK กรณีการ run งานตามโปรเจคนี้เกิดขึ้นนอก environment ของ Google Cloud
 
 ## Setting Up Your Google Cloud Platform (GCP) Environment
 
