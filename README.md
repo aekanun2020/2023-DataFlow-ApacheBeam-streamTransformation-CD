@@ -6,8 +6,8 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
 
 - [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้)
 - [Installation](#Installation)
-- [Linux](#Installation)
-- [Installation](#Installation)
+- [Linux](#Linux)
+
 
 ## สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้
 
@@ -23,8 +23,10 @@ This project is designed to create a data pipeline using Apache Beam, facilitati
    
 2. **Google Cloud SDK** - [Follow the instructions here](https://cloud.google.com/sdk/docs/install).
 
-service account key file:
+## Linux
+
+คำสั่งที่ใช้ แก้ไข file:
 
    ```sh
-   export GOOGLE_APPLICATION_CREDENTIALS="path/to/your-service-account-file.json"
-   ```
+   nano "file"
+  
