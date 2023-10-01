@@ -1,7 +1,5 @@
 import pytest
-import sys
-sys.path.append('/bitnami/jenkins/home/workspace/Module Testing for Apache Beam/your_project_name')
-from cleanse_data_module import cleanse_data
+from your_project_name.cleanse_data_module import cleanse_data
 import json
 
 
@@ -68,5 +66,4 @@ def test_cleanse_data_invalid_date():
     cleansed_data = cleanse_data(data_byte)
 
     assert cleansed_data["dayofweek"] == None
-
 
