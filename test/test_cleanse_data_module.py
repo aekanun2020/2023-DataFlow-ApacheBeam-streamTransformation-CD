@@ -1,5 +1,5 @@
 import pytest
-from cleanse_data_module import cleanse_data
+from your_project_name.cleanse_data_module import cleanse_data
 
 def test_cleanse_data_string_fields():
     data = {
