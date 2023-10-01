@@ -55,3 +55,4 @@ def test_cleanse_data_invalid_date():
     cleansed_data = cleanse_data(data)
 
     assert cleansed_data["dayofweek"] == None
+
