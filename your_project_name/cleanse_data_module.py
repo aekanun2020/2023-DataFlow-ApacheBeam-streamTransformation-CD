@@ -6,8 +6,7 @@ def cleanse_data(element):
     """Function to cleanse and transform input data."""
     
     # Convert byte format to string and load as JSON
-    if isinstance(element, bytes):
-        element = element.decode('utf-8')
+    element = element.decode('utf-8')
     element = json.loads(element)
 
     result = {}
