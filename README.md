@@ -6,6 +6,7 @@ This project revolves around developing a data pipeline leveraging Apache Beam t
 
 - [สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้](#สิ่งที่ต้องเตรียมมาเพื่อทำงานกับโปรเจคนี้)
 - [Installation](#Installation)
+- [Configuring](#Configuring)
 - [Video](#Video)
 
 
@@ -23,6 +24,24 @@ This project revolves around developing a data pipeline leveraging Apache Beam t
 1. **Docker and Docker-compose** - ท่านสามารถทำตามขั้นตอนในหน้า 12, 14: [Follow the instructions here](https://docs.google.com/presentation/d/1USvOvbXAohymqWaNbYMfD3e23Z35aJO-hQUaY7y_JBA/edit#slide=id.g198e6c17f8f_0_201).
    
 2. **Google Cloud SDK** - [Follow the instructions here](https://cloud.google.com/sdk/docs/install).
+
+
+## Configuring
+ที่ Shell ของ vm หรือ pc หรือ mac ซึ่งผ่านการติดตั้ง Docker และ Docker-compose เพื่อที่จะ run Terraform ท่านสามารถทำตามขั้นตอนต่อไปนี้ได้
+
+1. $ git clone https://github.com/aekanun2020/Terra-Docker-BeamFlow-Project.git
+2. $ cd Terra-Docker-BeamFlow-Project/
+3. นำ key ของ GCP's Service Account ซึ่งเป็น .json ไฟล์มาวางที่ current path
+4. แก้ไข Dockerfile, main.tf และ main_pipeline.py ตามรายละเอียดที่นี่ https://medium.com/@aekanunbigdata/unlocking-real-time-insights-building-a-stream-processing-solution-with-apache-beam-google-cloud-1c060a0557cb
+5. สร้าง Docker image ด้วย $ sudo docker build -t 2023-dataflow-apachebeam-streamtransformation-cd:latest .
+6. พบ Docker image ในชื่อ 2023-dataflow-apachebeam-streamtransformation-cd ด้วยการใช้คำสั่ง $ sudo docker images
+7. รัน Docker container ด้วย $ sudo docker run -it 2023-dataflow-apachebeam-streamtransformation-cd:latest /bin/bash
+8. หลังจากได้ shell ของ container คือ /workspace# ให้ทำข้อต่อไป
+9. # terraform init
+10. # terraform plan
+11. # terraform apply
+12. หากต้องหยุดและลบทุกอย่าง ให้ run คำสั่ง # terraform destroy ซึ่งจะลบ GCS's bucket, BQ's dataset แล้ว stop Dataflow's job แบบ manual
+
 
 
 ## Video
