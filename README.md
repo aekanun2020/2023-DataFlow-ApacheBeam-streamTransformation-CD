@@ -37,9 +37,9 @@ This project revolves around developing a data pipeline leveraging Apache Beam t
 6. พบ Docker image ในชื่อ 2023-dataflow-apachebeam-streamtransformation-cd ด้วยการใช้คำสั่ง $ sudo docker images
 7. รัน Docker container ด้วย $ sudo docker run -it 2023-dataflow-apachebeam-streamtransformation-cd:latest /bin/bash
 8. หลังจากได้ shell ของ container คือ /workspace# ให้ทำข้อต่อไป
-9. # terraform init
-10. # terraform plan
-11. # terraform apply
+9. รันคำสั่งเพื่อเริ่มต้นการทำงานของ Terraform (Initialization) ซึ่งทำเพียงครั้งเดียว # terraform init
+10. รันคำสั่งเพื่อตรวจดูว่า Terraform มีลำดับการ Orchrestration & Deployment อย่างไร # terraform plan
+11. รันคำสั่งเพื่อให้ Terraform ดำเนินงานตาม plan # terraform apply
 12. หากต้องหยุดและลบทุกอย่าง ให้ run คำสั่ง # terraform destroy ซึ่งจะลบ GCS's bucket, BQ's dataset แล้ว stop Dataflow's job แบบ manual
 
 
