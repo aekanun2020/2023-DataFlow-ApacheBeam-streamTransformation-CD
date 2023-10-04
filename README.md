@@ -20,7 +20,7 @@ This project revolves around developing a data pipeline leveraging Apache Beam t
 
 ## Installation
 
-1. **Docker and Docker-compose** - ท่านสามารถทำตามขั้นตอนในหน้า 12, 14-15: [Follow the instructions here](https://docs.google.com/presentation/d/1USvOvbXAohymqWaNbYMfD3e23Z35aJO-hQUaY7y_JBA/edit#slide=id.g198e6c17f8f_0_201).
+1. **Docker and Docker-compose** - ท่านสามารถทำตามขั้นตอนในหน้า 12, 14: [Follow the instructions here](https://docs.google.com/presentation/d/1USvOvbXAohymqWaNbYMfD3e23Z35aJO-hQUaY7y_JBA/edit#slide=id.g198e6c17f8f_0_201).
    
 2. **Google Cloud SDK** - [Follow the instructions here](https://cloud.google.com/sdk/docs/install).
 
